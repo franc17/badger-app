@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Badger</string>
+    <string name="view_report">View Report</string>
+    <string name="badger_me_to">Badger Me To...</string>
+    <string name="view_badgers">View Badgers</string>
+    <string name="did_you">Did you</string>
+    <string name="shortcut_short">Create Badger</string>
+    <string name="shortcut_long">Create a Badger using a specific time and snooze interval</string>
+    <string name="conversation_error">Something went wrong, lets try again.</string>
+<!--    <string name="q">//?</string>-->
+</resources>

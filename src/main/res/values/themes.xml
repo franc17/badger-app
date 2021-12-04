@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Badger" parent="Theme.AppCompat">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_grey</item>
+        <item name="colorPrimaryVariant">@color/light_grey</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/dark_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/light_grey</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/quicksand</item>
+    </style>
+    
+    <style name="timePickerTheme" parent="@android:style/Widget.Material.TimePicker">
+            <item name="showTitle">false</item>
+            <item name="colorControlActivated">@color/white</item>
+            <item name="colorAccent">@color/light_blue</item>
+            <item name="android:textColorPrimary">@color/dark_grey</item>
+            <item name="android:textColorSecondary">@color/dark_blue</item>
+                <item name="android:numbersBackgroundColor">@color/light_blue</item>
+
+    </style>
+
+<!--    <style name="timePickerWidgetStyle" parent="@android:style/Widget.Material.TimePicker">-->
+<!--        <item name="android:headerBackground">@color/light_blue</item>-->
+<!--        <item name="android:numbersTextColor">#b71c1c</item>-->
+<!--        <item name="android:numbersInnerTextColor">#f44336</item>-->
+<!--        <item name="android:numbersSelectorColor">#33691e</item>-->
+<!--        <item name="android:numbersBackgroundColor">#ef9a9a</item>-->
+<!--        <item name="android:amPmTextColor">#9c27b0</item>-->
+<!--    </style>-->
+
+</resources>
